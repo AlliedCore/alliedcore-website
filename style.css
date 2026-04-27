@@ -62,29 +62,15 @@ ul {
   gap: 12px;
 }
 
-.logo-mark {
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, var(--navy), var(--teal), var(--green));
-  color: var(--white);
-  font-weight: 900;
-  display: grid;
-  place-items: center;
-  font-size: 24px;
+.site-logo {
+  height: 48px;
+  width: auto;
+  display: block;
 }
 
-.brand strong {
-  display: block;
-  color: var(--navy);
-  letter-spacing: 1px;
-}
-
-.brand span {
-  display: block;
-  font-size: 11px;
-  letter-spacing: 2px;
-  color: var(--muted);
+.brand {
+  display: flex;
+  align-items: center;
 }
 
 .nav-links {
